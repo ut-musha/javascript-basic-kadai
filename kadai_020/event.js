@@ -5,6 +5,8 @@ const text = document.querySelector("#text");
 console.log(text);
 
 btn.addEventListener('click', () => {
-    
-    text.textContent = 'ボタンがクリックされました。';
+    setTimeout(()=> {
+
+    text.textContent = 'ボタンがクリックされました';
+    },2000);
 });
